@@ -32,6 +32,8 @@
 	"homepage": "https://github.com/fffffkkk/ranked-full-app#readme",
 	"devDependencies": {
 		"@types/webpack": "^5.28.0",
-		"prettier": "^2.5.1"
+		"concurrently": "^7.6.0",
+		"prettier": "^2.5.1",
+		"wait-on": "^7.0.1"
 	}
 }
