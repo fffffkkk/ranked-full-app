@@ -1,6 +1,10 @@
 import { Injectable } from '@nestjs/common';
 
-import { CreatePollFields, JoinPollFields, RejoinPollFields } from './@types';
+import {
+  CreatePollFields,
+  JoinPollFields,
+  RejoinPollFields,
+} from './@types/polls';
 import { createPollID, createUserID } from '../helpers/ids';
 
 @Injectable()
